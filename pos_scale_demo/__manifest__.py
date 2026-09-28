@@ -10,15 +10,16 @@
     "license": "AGPL-3",
     "maintainers": ["legalsylvain"],
     "depends": [
-        # Odoo
+        # Odoo Repo
+        # https://github.com/odoo/odoo/
         "point_of_sale",
+        # OCA Repo
         # https://github.com/OCA/pos/
         "pos_scale_usability",
-        "pos_tare",
+        # "pos_tare",  TODO: FIXME, once pos_driver_scale is compatible
+        # Extra Repo
         # https://gitlab.com/odoo-driver/odoo-addons-driver
         "pos_driver_device_list",
-        "pos_driver_display",
-        "pos_driver_payment",
         "pos_driver_scale",
     ],
     "demo": [

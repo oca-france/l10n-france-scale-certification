@@ -10,10 +10,6 @@
         <field name="is_posbox" eval="True" />
         <field name="proxy_ip">https://localhost:8069</field>
         <field name="iface_electronic_scale" eval="True" />
-        <field name="iface_print_via_proxy" eval="True" />
-        <field name="iface_cashdrawer" eval="True" />
-        <field name="iface_customer_display" eval="True" />
-        <field name="iface_payment_terminal" eval="True" />
         <field name="iface_start_categ_id" ref="pos_category_food" />
     </record>
 
